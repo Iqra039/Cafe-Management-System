@@ -42,7 +42,7 @@ cd cafe-management-system
 g++ -o cafe_app main.cpp Cafe.cpp -lsfml-graphics -lsfml-window -lsfml-system
 
 # Run
-./cafe_app
+./cafeSFML_app
 ```
 
 ### **Windows**
