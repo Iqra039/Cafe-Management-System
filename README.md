@@ -1,39 +1,82 @@
-# Café Management System (C++)
+# ☕ Cafe Management System - SFML GUI
 
-This project is a Café Management System developed in C++ using core Object-Oriented Programming concepts. It implements inheritance, polymorphism, composition, and aggregation while providing essential café operations such as menu handling, order processing, billing, inventory tracking, and customer feedback management.
+Modern cafe management application with graphical interface built using C++ and SFML.
 
-## 🚀 Features
-- Menu item management  
-- Order placement and modification  
-- Automatic billing generation  
-- Inventory monitoring and stock deduction  
-- Customer feedback collection  
-- Admin and staff roles  
-- File handling for permanent data storage  
-- UML diagrams included in documentation  
+## 🎯 Features
 
-## 🧩 OOP Concepts Used
-- **Inheritance** – Admin and Staff inherit from User  
-- **Polymorphism** – Overridden functions across derived classes  
-- **Composition** – Order owns Billing, MenuItem owns Ingredients  
-- **Aggregation** – InventoryManager maintains Ingredient list  
-- **Encapsulation** – Class attributes kept private with getter/setter methods  
+### **Admin Panel**
+- Staff management (add/remove)
+- Menu price & availability updates
+- Inventory restocking
+- View customer feedback
 
-## 📁 Project Structure
-/src -> C++ source files
-/docs -> Project report, UML diagrams
-/data -> Text files for saved menu, orders, billing, feedback
-README.md -> Project overview
+### **Staff Panel**
+- Create and process orders
+- Add menu items with quantities
+- Generate receipts automatically
 
-## 🛠 Technologies Used
-- C++  
-- File Handling  
-- UML Class Diagrams  
+### **Customer Panel**
+- Browse menu items
+- Place orders
+- Submit feedback with ratings
 
-## 📄 How to Run
-1. Clone the repository  
-2. Compile the `.cpp` files using any C++ compiler  
-3. Run the executable to start the café system  
+### **Additional Features**
+- Inventory tracking with low stock alerts
+- Sales reporting
+- File-based data persistence
+- Cafe-themed color scheme
 
-## 📌 Author
-Developed as a semester project for Object-Oriented Programming (OOP).
+## 🚀 Quick Start
+
+### **Requirements**
+- C++ compiler (Visual Studio)
+- SFML 2.5+
+
+### **Installation**
+```bash
+# Clone repository
+git clone https://github.com/yourusername/cafe-management-system.git
+cd cafe-management-system
+
+# Compile (Linux/macOS)
+g++ -o cafe_app main.cpp Cafe.cpp -lsfml-graphics -lsfml-window -lsfml-system
+
+# Run
+./cafe_app
+```
+
+### **Windows**
+1. Install SFML from [sfml-dev.org](https://www.sfml-dev.org)
+2. Link SFML in your IDE (Visual Studio, Code::Blocks, etc.)
+3. Compile and run
+
+## 🔑 Login Credentials
+
+- **Admin Password**: `deathnote`
+- **Staff**: Add via Admin panel first
+- **Customer**: No login required
+
+## 🎨 Color Theme
+- **Primary**: Khaki Brown `(205, 179, 139)`
+- **Secondary**: Espresso Brown `(76, 47, 39)`
+- **Background**: Cream White `(250, 245, 240)`
+
+## 📁 Data Files
+- `staff.txt` - Staff usernames
+- `feedback.txt` - Customer feedback
+- `orders.txt` - Order history  
+- `ingredient.txt` - Inventory
+- `receipt_*.txt` - Generated receipts
+
+## 🛠️ Customization
+Edit `main.cpp` to:
+- Add/update menu items
+- Modify color scheme
+- Change default settings
+
+## 📄 License
+MIT License
+
+---
+
+**Perfect for small cafes, coffee shops, or educational purposes!**
