@@ -1,0 +1,9 @@
+------ Cafe Receipt ------
+Order ID: ORD1766085703
+Customer: Guest
+
+Items:
+Black Coffee x 1 = 450
+
+Total Paid: 450
+--------------------------

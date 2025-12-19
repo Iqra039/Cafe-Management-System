@@ -1,0 +1,8 @@
+------ Cafe Receipt ------
+Order ID: ORD1766157815
+Customer: Staff
+
+Items:
+
+Total Paid: 0
+--------------------------

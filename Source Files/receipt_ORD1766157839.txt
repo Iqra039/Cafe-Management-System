@@ -1,0 +1,9 @@
+------ Cafe Receipt ------
+Order ID: ORD1766157839
+Customer: Guest
+
+Items:
+Avocado Toast x 3 = 1650
+
+Total Paid: 1650
+--------------------------
